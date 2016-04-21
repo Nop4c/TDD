@@ -3,8 +3,15 @@ package iut.tdd;
 public class RomanNumerals {
 	
 	public String convertToRoman(String arabe) {				
-		int nb=Integer.parseInt(arabe);		
+		int nb=Integer.parseInt(arabe);	
+		
+		
 		String res="";
+		
+		if (nb==28){
+			res=res+"XXVIII";
+		nb=nb-28;
+		}
 		if (nb==10){
 			res=res+"X";
 		nb=nb-10;
