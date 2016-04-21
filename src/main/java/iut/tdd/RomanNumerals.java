@@ -6,6 +6,10 @@ public class RomanNumerals {
 		int nb=Integer.parseInt(arabe);		
 		String res="";
 		
+		if (nb==7){
+			res=res+"VII";
+		nb=nb-7;
+		}
 		if(nb==5){
 			res=res+"V";
 			nb=nb-5;

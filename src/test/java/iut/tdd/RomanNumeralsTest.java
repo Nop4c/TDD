@@ -23,6 +23,7 @@ public class RomanNumeralsTest {
 		Assert.assertEquals("III", romanNumeral.convertToRoman("3"));
 		Assert.assertEquals("IV", romanNumeral.convertToRoman("4"));
 		Assert.assertEquals("V", romanNumeral.convertToRoman("5"));
+		Assert.assertEquals("VII", romanNumeral.convertToRoman("7"));
 		
 	}
 }
