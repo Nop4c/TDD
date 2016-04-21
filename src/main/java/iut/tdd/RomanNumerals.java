@@ -5,7 +5,10 @@ public class RomanNumerals {
 	public String convertToRoman(String arabe) {				
 		int nb=Integer.parseInt(arabe);		
 		String res="";
-		
+		if (nb==10){
+			res=res+"X";
+		nb=nb-10;
+		}
 		if (nb==9){
 			res=res+"IX";
 		nb=nb-9;

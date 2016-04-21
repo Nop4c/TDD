@@ -25,6 +25,8 @@ public class RomanNumeralsTest {
 		Assert.assertEquals("V", romanNumeral.convertToRoman("5"));
 		Assert.assertEquals("VII", romanNumeral.convertToRoman("7"));
 		Assert.assertEquals("IX", romanNumeral.convertToRoman("9"));
+		Assert.assertEquals("X", romanNumeral.convertToRoman("10"));
+		
 		
 		
 	}
