@@ -58,8 +58,7 @@ public class RomanNumerals {
 			}
 		//}
 		if(nb>9 && nb<20){
-			res="X"+res;
-			
+			res="X"+res;			
 		}
 		if(nb>19 && nb<30){
 			res="XX"+res;
@@ -68,7 +67,30 @@ public class RomanNumerals {
 			res="XXX"+res;
 			
 		}
-		
+		if(nb>39 && nb<50){
+			res="XL"+res;
+			
+		}
+		if(nb>49 && nb<60){
+			res="L"+res;
+			
+		}
+		if(nb>59 && nb<70){
+			res="LX"+res;
+			
+		}
+		if(nb>69 && nb<80){
+			res="LXX"+res;
+			
+		}
+		if(nb>79 && nb<90){
+			res="LXXX"+res;
+			
+		}
+		if(nb>89 && nb<100){
+			res="XC"+res;
+			
+		}
 	
 		return res;
 	}

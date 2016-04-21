@@ -29,12 +29,16 @@ public class RomanNumeralsTest {
 		Assert.assertEquals("XI", romanNumeral.convertToRoman("11"));
 		Assert.assertEquals("XV", romanNumeral.convertToRoman("15"));
 		Assert.assertEquals("XXV", romanNumeral.convertToRoman("25"));
-		
+		Assert.assertEquals("XXX", romanNumeral.convertToRoman("30"));
 		Assert.assertEquals("XXVIII", romanNumeral.convertToRoman("28"));
 		Assert.assertEquals("XXVI", romanNumeral.convertToRoman("26"));
-		/*Assert.assertEquals("XXX", romanNumeral.convertToRoman("30"));
-		
-	
+		Assert.assertEquals("XLV", romanNumeral.convertToRoman("45"));
+		Assert.assertEquals("LV", romanNumeral.convertToRoman("55"));
+		Assert.assertEquals("LXV", romanNumeral.convertToRoman("65"));
+		Assert.assertEquals("LXXV", romanNumeral.convertToRoman("75"));
+		Assert.assertEquals("LXXXV", romanNumeral.convertToRoman("85"));
+		Assert.assertEquals("XCV", romanNumeral.convertToRoman("95"));
+	/*
 	
 		*/
 		
