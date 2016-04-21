@@ -2,22 +2,24 @@ package iut.tdd;
 
 public class RomanNumerals {
 	
-	public String convertToRoman(String arabe) {
-		
-		
-		int nb=Integer.parseInt(arabe);
-		
+	public String convertToRoman(String arabe) {				
+		int nb=Integer.parseInt(arabe);		
 		String res="";
-		for(int i=0;i<nb;i++){
-		
-				res=res+"I";
-			}
-		
-		return res;
 		
 		
 	
+		if(nb==4){
+			res+="IV";
+			nb=nb-4;
+			}
+		
+	
+	for(int i=0;i<nb;i++){
+			res=res+"I";	
+		}
+		return res;	
 	}
+	
 	
 	
 
