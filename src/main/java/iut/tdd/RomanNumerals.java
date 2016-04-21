@@ -7,6 +7,10 @@ public class RomanNumerals {
 		
 		
 		String res="";
+		if (nb==30){
+			res=res+"XXX";
+		nb=nb-30;
+		}
 		if (nb==29){
 			res=res+"XXIV";
 		nb=nb-29;
